@@ -9,7 +9,6 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          <code className={styles.code}>src/app/page.tsx</code>
           Rora&nbsp;
           <code className={styles.code}>Stay Alert, Stay Safe</code>
         </p>
