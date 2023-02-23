@@ -9,7 +9,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Rora&nbsp;
+          Rora:&nbsp;
           <code className={styles.code}>Stay Alert, Stay Safe</code>
         </p>
         {/* <div>
