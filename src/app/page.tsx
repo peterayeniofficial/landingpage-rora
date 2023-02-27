@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -13,9 +14,11 @@ export default function Home() {
         </div>
 
         <div className="font-montserrat hidden md:block">
-          <button className="py-2 px-4 text-white bg-black rounded-3xl">
-            Join the wait list
-          </button>
+          <Link href="https://ihg6ilh95l1.typeform.com/to/t4Xx5jfU">
+            <button className="py-2 px-4 text-white bg-black rounded-3xl">
+              Join the wait list
+            </button>
+          </Link>
         </div>
       </nav>
       <div className="relative h-screen">
@@ -48,9 +51,11 @@ export default function Home() {
                 <p className="text-gray-400 text-lg pb-3">
                   Know when we are live!
                 </p>
-                <button className="bg-red-600 px-6 py-4 rounded-lg border-2 border-red-600 border-solid text-white mr-2 mb-2">
-                  Join the wait list
-                </button>
+                <Link href="https://ihg6ilh95l1.typeform.com/to/t4Xx5jfU">
+                  <button className="bg-red-600 px-6 py-4 rounded-lg border-2 border-red-600 border-solid text-white mr-2 mb-2">
+                    Join the wait list
+                  </button>
+                </Link>
                 <p className="text-white text-xs">
                   By sharing your email, you agree to our Subscriber Agreement &
                   Privacy Policy
